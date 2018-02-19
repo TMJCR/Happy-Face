@@ -1,0 +1,93 @@
+	<!DOCTYPE html>
+	<html>
+
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>SVG</title>
+	</head>
+
+	<body class="site">
+
+
+
+		<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+
+	 			<ellipse id="face" class="face" cx="50" cy="50" rx="30" ry="30"> </ellipse>
+
+	 			<g id="eye">
+	 			<ellipse id="left_eye" class="show_eye" cx="35" cy="45" rx="5" ry="5"> </ellipse>
+	 			<line id="wink" class="face" x1="30" y1="45" x2="40" y2="45"></line>
+	 			</g>
+
+	 			<ellipse id="right_eye" class="right_eye" cx="65" cy="45" rx="5" ry="5"> </ellipse>
+
+	 			<g id="mouth">	 
+	 			<ellipse id="openMouth" class="open_mouth" cx="50" cy="65" rx="10" ry="5"> </ellipse>
+	 			<line id="closedMouth" class="closedMouth" x1="41" y1="65" x2="59" y2="65"></line>
+	 			</g>
+
+	 			<ellipse id="nose" class="nose" cx="50" cy="53.5" rx="1.5" ry="2.5"> </ellipse>
+	 			<text id="name" class="text" x=34 y=15>Tom</text>
+	 			
+	 			
+</svg>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="app.js"></script>
+
+
+	</body>
+	</html>
+
+<style type="text/css">
+	.face{
+	stroke:black;
+	fill:yellow;
+}
+
+.right_eye {
+	stroke:black;
+}
+
+.show_eye {
+	stroke:black;
+
+}
+
+.nose {
+	stroke:black;
+}
+
+
+.class {
+	margin:100px;
+}
+
+.hide_eye {
+	stroke:yellow;
+	fill:yellow;
+}
+
+
+.open_mouth {
+	stroke:black;
+	fill:pink;
+}
+
+.close_mouth {
+	stroke:yellow;
+	fill:yellow;
+}
+
+.smirk {
+	stroke:black;
+}
+
+.closedMouth {
+	stroke:pink;
+}
+
+
+</style>
